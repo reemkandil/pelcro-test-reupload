@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/laravel',
-        'pretty_version' => 'dev-main',
-        'version' => 'dev-main',
-        'reference' => 'cac39143d60543d852c4e52b3f17ebd8cf0ea17f',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'ebc97ae47892dd3f5e8864c60fdcfaf9fac3c51e',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -374,9 +374,9 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => 'cac39143d60543d852c4e52b3f17ebd8cf0ea17f',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'ebc97ae47892dd3f5e8864c60fdcfaf9fac3c51e',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -392,9 +392,9 @@
             'dev_requirement' => true,
         ),
         'laravel/sanctum' => array(
-            'pretty_version' => 'v2.15.1',
-            'version' => '2.15.1.0',
-            'reference' => '31fbe6f85aee080c4dc2f9b03dc6dd5d0ee72473',
+            'pretty_version' => 'v3.2.1',
+            'version' => '3.2.1.0',
+            'reference' => 'd09d69bac55708fcd4a3b305d760e673d888baf9',
             'type' => 'library',
             'install_path' => __DIR__ . '/../laravel/sanctum',
             'aliases' => array(),

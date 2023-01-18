@@ -15,15 +15,12 @@ return new class extends Migration
     {
         Schema::create('customers', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id')->constrained()->onDelete('cascade');
-            $table->string('title');
-            $table->string('logo')->nullable();
-            $table->string('tags');
-            $table->string('company');
-            $table->string('location');
+            $table->string('first name');
+            $table->string('last name');
+            $table->string('username');
             $table->string('email');
-            $table->string('website');
-            $table->longText('description');
+            $table->integer('salary');
+            $table->tinyInteger('status');
             $table->timestamps();
         });
     }
